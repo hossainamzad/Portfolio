@@ -1,0 +1,7 @@
+.navbar{
+  display: flex;
+}
+.navbar a {
+  color: black;
+  font-family: sans-serif;
+}
