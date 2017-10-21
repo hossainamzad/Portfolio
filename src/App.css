@@ -24,6 +24,8 @@
   font-size: 1em;
   font-weight: 500;
   font-size: 1.5em;
+  padding: 10px;
+
 }
 .description{
   font-family: sans-serif;
@@ -51,40 +53,49 @@ span:hover{
   to { transform: rotate(360deg); }
 }
 .social{
-  display: flex;
-  list-style: none;
+  display: inline-block;
   font-size: 40px;
-  text-align: center;
-}
-.social li{
   margin: 0 auto;
 }
-.social i{
+ul li{
+  /*margin-left: 150px;*/
+  list-style: none;
   text-align: center;
+}
+.social i{
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
 }
-.aboutme{
-
+/*.icon{
+ flex: left;
+}*/
+.about-header{
+  padding-top: 10px;
+  color: RGBA(42, 97, 128, 1.00);
+}
+.about-sub-title{
+  padding-top: 20px;
+  font-weight: bold;
 }
 .wrapper{
   display: flex;
+  padding-top: 30px;
+  padding-bottom: 60px;
 
 }
 .projectOne{
   width: 400px;
   height: 400px;
-  background-color: blue;
+  /*background-color: green;*/
   border: 1px solid black;
   padding: 10px;
   margin: 0 auto;
-
 }
 .projectTwo{
   width: 400px;
   height: 400px;
-  background-color: green;
+  /*background-color: green;*/
   padding: 10px;
   margin: 0 auto;
 
@@ -92,12 +103,16 @@ span:hover{
 .projectThree{
   width: 400px;
   height: 400px;
-  background-color: yellow;
+  /*background-color: green;*/
   padding: 10px;
   margin: 0 auto;
 }
+.techUsed{
+  padding: 20px;
+}
 .skillsWrapper{
   width: 100%;
+  margin-top: 20px;
 }
 .coreSkills{
   width:75%;
@@ -105,20 +120,29 @@ span:hover{
 }
 
 .otherSkills{
-  width:75%;
+  width:80%;
   margin:0 auto;
 }
 .cell{
   flex:left;
   width:25%;
   list-style: none;
+
 }
 .cell img{
-  height: 50%;
+  height: 40%;
+  text-align: center;
 }
 ul{
   width:100%;
   display:flex;
   margin:0 auto;
   padding: 5px;
+}
+.skill{
+  padding: 10px 20px 10px 20px;
+}
+.contact{
+  color: #007FB2;
+  padding: 10px;
 }
