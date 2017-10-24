@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.head-and-body{
+  height: 100%;
+  padding: 170px;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -52,24 +56,31 @@ span:hover{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+/*this styling is for Footer component*/
+.footer{
+  background-color: RGBA(51, 51, 51, 1.00);
+  height: 225px;
+}
 .social{
   display: inline-block;
   font-size: 40px;
   margin: 0 auto;
 }
+.social .contact{
+  color: white;
+}
 ul li{
-  /*margin-left: 150px;*/
   list-style: none;
   text-align: center;
 }
 .social i{
-  border: 1px solid black;
   padding: 10px;
   margin: 10px;
+  background-color: RGBA(51, 51, 51, 1.00);
+  color: white;
 }
-/*.icon{
- flex: left;
-}*/
+/*the styling for footer ends here.*/
+
 .about-header{
   padding-top: 10px;
   color: RGBA(42, 97, 128, 1.00);
@@ -80,47 +91,50 @@ ul li{
 }
 .wrapper{
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 60px;
+ /* padding-top: 30px;
+  padding-bottom: 60px;*/
+  padding: 40px 40px 60px 40px;
+  margin-bottom: 3em;
 
 }
 .projectOne{
-  width: 400px;
-  height: 400px;
-  /*background-color: green;*/
-  border: 1px solid black;
-  padding: 10px;
-  margin: 0 auto;
-}
-.projectTwo{
-  width: 400px;
-  height: 400px;
-  /*background-color: green;*/
+  width: 30%;
   padding: 10px;
   margin: 0 auto;
 
 }
-.projectThree{
-  width: 400px;
-  height: 400px;
-  /*background-color: green;*/
+
+.projectTwo{
+  width: 30%;
   padding: 10px;
   margin: 0 auto;
+}
+.projectTwo a img, .projectOne a img{
+  border: 1px solid grey;
+}
+.projectThree{
+  width: 30%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.projectThree  img{
+  border: 1px solid grey;
 }
 .techUsed{
   padding: 20px;
 }
 .skillsWrapper{
-  width: 100%;
-  margin-top: 20px;
+  height: 500px;
+  width: auto;
+  margin-top: 30px;
 }
 .coreSkills{
-  width:75%;
+  width:80%;
   margin:0 auto;
 }
 
 .otherSkills{
-  width:80%;
+  width:78%;
   margin:0 auto;
 }
 .cell{
@@ -132,6 +146,7 @@ ul li{
 .cell img{
   height: 40%;
   text-align: center;
+  width: auto;
 }
 ul{
   width:100%;
@@ -144,5 +159,5 @@ ul{
 }
 .contact{
   color: #007FB2;
-  padding: 10px;
+  padding: 20px;
 }

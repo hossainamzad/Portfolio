@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Nav';
 const Header = () =>
-  <div>
+  <div className="head-and-body">
     <header className="App-header">
       <h1 className="App-title">AMZAD HOSSAIN</h1>
       <h3 className="sub-title">Full Stack Web Developer</h3>

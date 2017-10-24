@@ -15,13 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Navigation />
+        <Navigation />
           <Switch>
             <Route exact path="/" component={Header} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
           </Switch>
-          <Footer />
+        <Footer />
       </div>
     );
   }
