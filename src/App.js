@@ -21,7 +21,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
           </Switch>
-        <Footer />
+          <Footer />
       </div>
     );
   }

@@ -18,7 +18,7 @@ const Projects = (props) =>{
         <span>Technologies Used: </span>  <span>JavaScript</span> |<span>Node.js</span> |<span>Express.js</span> |<span>React</span> |<span>PostgreSQL</span>
       </div>
     </div>
-    <div className="projectOne"><a href="https://bloodcell.herokuapp.com/"><img src={require('../BloodCell.png')} width="380" /></a>
+    <div className="projectOne"><a href="https://bloodcell.herokuapp.com/"><img src={require('../BloodCell.png')} width="380" height="238px"/></a>
        <div className="techUsed">
         <span>Technologies Used: </span>  <span>Ruby</span> |<span>Ruby on Rails</span> |<span>JavaScript</span> |<span>PostgreSQL</span>
       </div>

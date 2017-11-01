@@ -109,7 +109,7 @@ ul li{
   padding: 10px;
   margin: 0 auto;
 }
-.projectTwo a img, .projectOne a img{
+.projectTwo a img, .projectOne a img, .projectThree a img{
   border: 1px solid grey;
 }
 .projectThree{
