@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import './App.css';
+import 'bulma/css/bulma.css';
+
 // to import the nav page and display it on the page.
 import Navigation from './components/Nav';
 import Footer from './components/Footer';
